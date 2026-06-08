@@ -12,4 +12,4 @@ if(rows<0):
     exit("number of rows are invalid")
 #to display pattern
 for i in range(1,rows+1):
-    print("")
+    print("*"*i)
